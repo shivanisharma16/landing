@@ -1,0 +1,295 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+min-height: 100vh;
+width: 100%;
+background-image: url(images/fisrt.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+.navbar a
+{
+color: black;
+text-decoration: none;
+}
+
+
+.text{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text h1{
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border:  solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    border-radius:12px ;
+}
+.btn:hover{
+    border: 1px solid #008B8B;
+    background-color: #008B8B;
+    transition: 1s;
+}
+
+
+.cod{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: left;
+    padding-bottom: 100px;
+    
+}
+.cod h1{
+    font-size: 30px;
+}
+
+.cod p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: black;
+}
+
+
+.ser 
+{
+    padding-top: 100px;
+    text-align: center;
+    background-color: azure;
+    padding-bottom: 80px;
+    
+}
+.ser h1{
+    color: #008B8B;
+    align-items: center;
+    font-size: 40px;
+}
+.ser h3{
+    align-items: flex;
+    font-size: 30px;
+    padding-top: auto;
+}
+.ser p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: black;
+    align-items: right;
+
+}
+.ser img{
+    height: 250px;
+}
+.ser a{
+    
+    display: inline-block;
+    text-decoration: none;
+    color: #111010;
+    border:  solid #121111;
+    padding: 10px 30px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    border-radius:12px ;
+}
+.ser a:hover{
+    border: 1px solid #008B8B;
+    background-color: #008B8B;
+    transition: 1s;
+}
+
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+.wrapper img{
+    max-width: 320px;
+    float:left;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-right: 15px;
+}
+
+
+.box{
+    color: black;
+}
+.box h2{
+    font-size: 30px;
+}
+.box p{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+
+.wrapper h1{
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+ 
+.wrapper a{
+    display: inline-block;
+    text-decoration: none;
+    color: #111010;
+    border:  solid #121111;
+    padding: 10px 30px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    border-radius:12px ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.wrapper a:hover{
+    border: 1px solid #008B8B;
+    background-color: #008B8B;
+    transition: 1s;
+}
+
+
+.test{
+    margin: 100px auto;
+    width: 90%;
+    background-image:url(images/fisrt.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.test h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+
+.form{
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding-bottom: 100px;
+}
+.form h1{
+    font-size: 30px;
+    align-items: center;
+}
+.formbox{
+    background: #f0ffff;;
+    display: flex;
+}
+.left{
+    flex-basis: 90%;
+    padding: 40px 60px;
+
+}
+.right{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background: url(images/fisrt.jpg);
+    color:  #fff;
+}
+.form h1{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc ;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px ;
+    display: block;
+}
+button{
+    background: #008B8B;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius:30px ;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: azure;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.icon .fa{
+    color: #008B8B;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
